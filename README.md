@@ -16,6 +16,9 @@ This is the main script that is called to performed the cleaning and tidying of 
 4. Appropriately labels the data set with descriptive variable names.
 5. From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 
+This file assumes that datazip file has been downloaded and unzipped.
+The data is placed in the sub directories under the current work directory.
+
 # Run_analysis_util.R
 
 This is supporting script, which provides the helper functions to the main script. This script mainly provides functions to read data from the files.
